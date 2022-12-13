@@ -5,8 +5,6 @@
     margin: auto;
 
     padding: 5rem;
-
-    background:#F2F2F2;
 }
 
 .container p{
@@ -16,19 +14,39 @@
     font-size: 30px;
     font-weight: 500;
 
-    background: #F2F2F2;
+    color: #F2F2F2;
 }
 
-.data{
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-}
 
-.data table{
+
+table{
     width: 60%;
 
     margin: auto;
+    margin-top:5% ;
 
     background: #F2F2F2;
+
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.itens td{
+    color: #F2F2F2;
+    width: 10%;
+
+    font-weight: 500;
+    font-size: 20px;
+
+    border-style: none;
+    border-radius: 5px;
+}
+
+tr{
+    background: #94BDF2;
+}
+
+td{
+    width: 20%;
+    padding: 1rem;
 }
