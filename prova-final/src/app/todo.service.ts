@@ -14,7 +14,7 @@ export class TodoService {
   constructor(private http: HttpClient) { }
 
   
-  ObserTodo(): Observable<InterTodo>{
-    return this.http.get<InterTodo>(this.todoURL)
+  ObserTodo(): Observable<InterTodo[]>{
+    return this.http.get<InterTodo[]>(this.todoURL)
   }
 }
