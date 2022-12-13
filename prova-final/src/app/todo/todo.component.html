@@ -1,19 +1,21 @@
-<p>Mostrando os dados de todos!</p>
 
-<div class="data">
-    <table>
-        <tr class="itens">
-            <td>User Id:</td>
-            <td>Id:</td>
-            <td>Title:</td>
-            <td>Completed:</td>
-        </tr>
+<div class="container">
+    <p>Mostrando os dados de todos!</p>
+        <div class="data">
+        <table>
+            <tr class="itens">
+                <td>User Id:</td>
+                <td>Id:</td>
+                <td>Title:</td>
+                <td>Completed:</td>
+            </tr>
 
-        <tr *ngFor="let forTodos of todos">
-            <td>{{forTodos.userId}}</td>
-            <td>{{forTodos.id}}</td>
-            <td>{{forTodos.title}}</td>
-            <td>{{forTodos.completed}}</td>
-        </tr>
-    </table>
+            <tr *ngFor="let forTodos of todos">
+                <td>{{forTodos.userId}}</td>
+                <td>{{forTodos.id}}</td>
+                <td>{{forTodos.title}}</td>
+                <td>{{forTodos.completed}}</td>
+            </tr>
+        </table>
+    </div>
 </div>
